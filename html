@@ -1,13 +1,66 @@
-<main>
-    <h1>Odborné práce - poster</h1>
+<!DOCTYPE html>
+<html lang="en">
+<style>
 
-    <h2>Biometrie</h2>
+    header {
+        background: mediumaquamarine;
+        text-align: center;
+    }
+    hr {
+        margin-top: 5px;
+    }
+    h1 {
+        padding: 13px;
+    }
 
-    <h3>Zdroje:</h3>
+    article {
+        padding-left: 10px;
+    }
 
-    <ul>
-        <li><a href="URL_ZDROJE_1">Název Zdroje 1 (např. Jméno autora, Rok)</a></li>
-        <li><a href="URL_ZDROJE_2">Název Zdroje 2 (Článek, webová stránka)</a></li>
-        <li>Další textové zdroje nebo obrázky.</li>
-    </ul>
-</main>
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: 60% 300px;
+        gap: 10rem;
+    }
+
+    .qr-code > img {
+        width: 30rem;
+        height: 30rem;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Zdroje</title>
+</head>
+<body>
+    <header>
+        <hr>
+        <h1>Základy odborné práce - poster</h1>
+        <h2>Biometrie</h2>
+        <hr>
+    </header>
+    <main class="content-wrapper">
+        <article class ="citace">
+            <h3>Zdroje:</h3>
+            <p>FIDO Alliance - <i>Online Authentication Barometer 2024: </i> <a href="https://fidoalliance.org/wp-content/uploads/2024/10/Barometer-Report-2024-Oct-29.pdf">Odkaz.</a></p>
+            <p>Doseděl, Petrová Kafková, Vidovićová – <i>Age and Gender Difference in ICT Literacy and Biometrics Knowledge: </i><a href="https://journals.muni.cz/socialni_studia/article/download/21291/16880/59293">Odkaz.</a></p>
+            <p>Kružíková et al. - <i>Usable and secure? User perception of four authentication methods for mobile banking: </i><a href="https://www.sciencedirect.com/science/article/pii/S0167404822000025 ">Odkaz.</a></p>
+            <p>Sasse & Krol - <i>Usable biometrics for an ageing population: </i><a href="https://discovery.ucl.ac.uk/id/eprint/1427686/2/Usable_biometrics_for_an_ageing_population_online_VERSION_A.pdf">Odkaz.</a></p>
+            <p>Penn State - <i>Research finds US adults have context-specific views on biometric technology use: </i><a href="https://www.psu.edu/news/engineering/story/research-finds-us-adults-have-context-specific-views-biometric-technology-use">Odkaz.</a> </p>
+            <p>Armstrong - <i>Biometric Usage and Risks Across Different Age Groups: </i><a href=" https://par.nsf.gov/">Odkaz.</a></p>
+            <p>Tushar Thakur - <i>Smartphone Statistics 2025: Ownership, Usage, and Emerging Technologies: </i><a href="https://techrt.com/smartphone-statistics/">Odkaz.</a></p>
+            <p>Khazin Muzaffar - <i>Apple Claims That Average iPhone is Unlocked 80 Times in a Day: </i><a href="https://techviral.net/apple-claims-average-iphone-unlocked-80-times/">Odkaz.</a></p>
+            <p>UIDAI / Aadhaar – <i>UIDAI Records 221 Crore Aadhaar Authentications in August 2025: </i><a href="https://currentaffairs.adda247.com/uidai-records-221-crore-aadhaar-authentications-in-august-2025/">Odkaz.</a> </p>
+            <p>Indian Masterminds Bureau - <i>Aadhaar Authentications Hit 229 Crore in June 2025, Face Authentication Soars to New Record: </i><a href="https://indianmasterminds.com/news/aadhaar-authentications-hit-229-crore-in-june-2025-face-authentication-soars-to-new-record-127010/">Odkaz.</a> </p>
+            <p>HSBC - <i>HSBC UK’s Voice ID prevents £249 million of attempted fraud: </i><a href="https://www.about.hsbc.co.uk/news-and-media/hsbc-uks-voice-id-prevents-gbp249-million-of-attempted-fraud">Odkaz.</a> </p>
+            <p>HSBC - <i>HSBC Voice ID System Cuts Telephone Banking Fraud in Half: </i><a href="https://www.digit.fyi/hsbc-voice-id-system-cuts-telephone-banking-fraud-in-half/">Odkaz.</a></p>
+            <p>BioCatch - <i>BioCatch posts record Q2, surpassing $160 million in ARR: </i><a href="https://www.biocatch.com/press-release/biocatch-posts-record-q2">Odkaz.</a></p>
+            <p>European Banking Authority - <i>Use of behavioural data for SCA: </i> <a href="https://www.eba.europa.eu/single-rule-book-qa/qna/view/publicId/2020_5620">Odkaz,</a></p>
+        </article>
+        <article class="qr-code">
+            <h3>QR kód na poster: </h3>
+            <img src="9090.jpg" alt="Poster.">
+        </article>
+    </main>
+</body>
+</html>
